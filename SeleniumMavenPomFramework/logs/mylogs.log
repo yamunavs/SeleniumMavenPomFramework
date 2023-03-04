@@ -1,0 +1,38 @@
+20230228 20:23:44 INFO  [main] base.BaseTest BaseTest.java65 - Started TestScript name = LogInErrorWithInvalidInputs
+20230228 20:23:49 INFO  [main] base.BaseTest BaseTest.java119 - going to url :https://login.salesforce.com/
+20230228 20:23:50 INFO  [main] base.BasePage BasePage.java60 - usernameentered in field
+20230228 20:23:50 INFO  [main] tests.LogInTest LogInTest.java152 - invalid username is entered in username field
+20230228 20:23:51 INFO  [main] base.BasePage BasePage.java60 - passwordentered in field
+20230228 20:23:51 INFO  [main] tests.LogInTest LogInTest.java158 - invalid password is entered in password field
+20230228 20:23:51 INFO  [main] base.BasePage BasePage.java69 - loginButton is clicked
+20230228 20:23:51 INFO  [main] tests.LogInTest LogInTest.java165 - TestCase4B is passed
+20230228 20:23:52 INFO  [main] base.BaseTest BaseTest.java65 - Started TestScript name = checkRememberMe
+20230228 20:23:59 INFO  [main] base.BaseTest BaseTest.java119 - going to url :https://login.salesforce.com/
+20230228 20:24:00 INFO  [main] base.BasePage BasePage.java60 - usernameentered in field
+20230228 20:24:00 INFO  [main] tests.LogInTest LogInTest.java93 - Valid username is entered in username field
+20230228 20:24:00 INFO  [main] base.BasePage BasePage.java60 - passwordentered in field
+20230228 20:24:00 INFO  [main] tests.LogInTest LogInTest.java99 - valid password is entered in password field
+20230228 20:24:00 INFO  [main] base.BasePage BasePage.java69 - rememberMe is clicked
+20230228 20:24:04 INFO  [main] base.BasePage BasePage.java69 - loginButton is clicked
+20230228 20:24:09 INFO  [main] base.BasePage BasePage.java69 - LoggedInUser is clicked
+20230228 20:24:12 INFO  [main] base.BasePage BasePage.java69 - logout is clicked
+20230228 20:24:13 INFO  [main] tests.LogInTest LogInTest.java111 - TestCase3 is passed
+20230228 20:24:13 INFO  [main] base.BaseTest BaseTest.java65 - Started TestScript name = error_logIn
+20230228 20:24:17 INFO  [main] base.BaseTest BaseTest.java119 - going to url :https://login.salesforce.com/
+20230228 20:24:17 INFO  [main] tests.LogInTest LogInTest.java26 - inside errorlogin method
+20230228 20:24:19 INFO  [main] base.BasePage BasePage.java60 - usernameentered in field
+20230228 20:24:19 INFO  [main] tests.LogInTest LogInTest.java36 - valid username is entered
+20230228 20:24:19 INFO  [main] tests.LogInTest LogInTest.java38 - password field is cleared
+20230228 20:24:19 INFO  [main] base.BasePage BasePage.java69 - loginButton is clicked
+20230228 20:24:20 INFO  [main] base.BaseTest BaseTest.java65 - Started TestScript name = forgetPasswordTest
+20230228 20:24:24 INFO  [main] base.BaseTest BaseTest.java119 - going to url :https://login.salesforce.com/
+20230228 20:24:24 INFO  [main] base.BasePage BasePage.java69 - forgetpassword is clicked
+20230228 20:24:25 INFO  [main] base.BasePage BasePage.java60 - userNameentered in field
+20230228 20:24:25 INFO  [main] tests.LogInTest LogInTest.java130 - username is entered in username field
+20230228 20:24:26 INFO  [main] base.BasePage BasePage.java69 - continueButton is clicked
+20230228 20:24:26 INFO  [main] tests.LogInTest LogInTest.java136 - TestCase4A is passed
+20230228 20:24:27 INFO  [main] base.BaseTest BaseTest.java65 - Started TestScript name = logIn_to_Salesforce
+20230228 20:24:35 INFO  [main] base.BaseTest BaseTest.java119 - going to url :https://login.salesforce.com/
+20230228 20:24:35 INFO  [main] base.BasePage BasePage.java60 - usernameentered in field
+20230228 20:24:36 INFO  [main] base.BasePage BasePage.java60 - passwordentered in field
+20230228 20:24:37 INFO  [main] base.BasePage BasePage.java69 - loginButton is clicked

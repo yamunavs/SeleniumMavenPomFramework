@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-28T20:23:43 EST" name="Default suite" finished-at="2023-02-28T20:24:41 EST" duration-ms="58129">
+    <groups>
+    </groups>
+    <test started-at="2023-02-28T20:23:43 EST" name="Default test" finished-at="2023-02-28T20:24:41 EST" duration-ms="58129">
+      <class name="tests.LogInTest">
+        <test-method is-config="true" signature="setUpbeforeTest()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:23:43 EST" name="setUpbeforeTest" finished-at="2023-02-28T20:23:44 EST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpbeforeTest -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:23:44 EST" name="setupBeforeMethod" finished-at="2023-02-28T20:23:49 EST" duration-ms="5430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LogInTest.LogInErrorWithInvalidInputs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="LogInErrorWithInvalidInputs()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:23:49 EST" name="LogInErrorWithInvalidInputs" finished-at="2023-02-28T20:23:51 EST" duration-ms="1962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInErrorWithInvalidInputs -->
+        <test-method is-config="true" signature="teardownAfterMethod()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:23:51 EST" name="teardownAfterMethod" finished-at="2023-02-28T20:23:52 EST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:23:52 EST" name="setupBeforeMethod" finished-at="2023-02-28T20:23:59 EST" duration-ms="7614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LogInTest.checkRememberMe()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="checkRememberMe()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:23:59 EST" name="checkRememberMe" finished-at="2023-02-28T20:24:13 EST" duration-ms="13943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRememberMe -->
+        <test-method is-config="true" signature="teardownAfterMethod()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:13 EST" name="teardownAfterMethod" finished-at="2023-02-28T20:24:13 EST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:13 EST" name="setupBeforeMethod" finished-at="2023-02-28T20:24:17 EST" duration-ms="4162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LogInTest.error_logIn() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="error_logIn()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:17 EST" name="error_logIn" finished-at="2023-02-28T20:24:20 EST" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- error_logIn -->
+        <test-method is-config="true" signature="teardownAfterMethod()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:20 EST" name="teardownAfterMethod" finished-at="2023-02-28T20:24:20 EST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:20 EST" name="setupBeforeMethod" finished-at="2023-02-28T20:24:24 EST" duration-ms="4118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LogInTest.forgetPasswordTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="forgetPasswordTest()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:24 EST" name="forgetPasswordTest" finished-at="2023-02-28T20:24:26 EST" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetPasswordTest -->
+        <test-method is-config="true" signature="teardownAfterMethod()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:26 EST" name="teardownAfterMethod" finished-at="2023-02-28T20:24:27 EST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:27 EST" name="setupBeforeMethod" finished-at="2023-02-28T20:24:35 EST" duration-ms="7302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LogInTest.logIn_to_Salesforce()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="logIn_to_Salesforce()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:35 EST" name="logIn_to_Salesforce" finished-at="2023-02-28T20:24:39 EST" duration-ms="4751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn_to_Salesforce -->
+        <test-method is-config="true" signature="teardownAfterMethod()[pri:0, instance:tests.LogInTest@243c4f91]" started-at="2023-02-28T20:24:39 EST" name="teardownAfterMethod" finished-at="2023-02-28T20:24:41 EST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterMethod -->
+      </class> <!-- tests.LogInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
